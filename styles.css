@@ -1,0 +1,102 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+    background-image: url("background.jpg");
+    background-blend-mode: darken;
+    background-size: 100%;
+
+}
+.dave-text {
+    font-size: 4em;
+    font-weight: 800;
+    color: #fbff00;
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: underline;
+    animation: blinker 0.5s linear infinite;
+
+}
+
+@keyframes blinker {
+    50% {
+        color: #ff448c;
+    }
+}
+
+.container button  {
+    margin-top: 20px;
+
+}
+
+.progress-bar {
+    color: red;
+}
+
+.barcontainer {
+    margin-top: 350px;
+}
+
+#bar-text {
+    text-align: center;
+}
+
+.barcontainer button {
+    background-color: #ff448c;
+    border-color: #ff448c;
+    font-weight: 500;
+}
+
+.barcontainer button:hover {
+    background-color: #ff648c;
+    border-color: #ff648c;
+}
+
+.barcontainer button:active {
+    background-color: #ff448c !important;
+    border-color: #ff448c !important;
+    box-shadow: none;
+}
+
+.barcontainer button:focus {
+    background-color: #ff448c !important;
+    border-color: #ff448c !important;
+    box-shadow: none !important;
+}
+
+.barcontainer button:active:focus {
+    background-color: #ff448c !important;
+    border-color: #ff448c !important;
+    box-shadow: none;
+}
+
+.barcontainer button:focus:hover {
+    background-color: #ff648c !important;
+    border-color: #ff648c !important;
+}
+
+#progbar {
+    width: 500px;
+    /* 1110 ist full */
+}
+
+
+#inc-button {
+    display: block;
+}
+
+#gay-text {
+    display: none;
+    font-size: 5em;
+    font-weight: 600;
+    animation: blinker 0.5s linear infinite;
+    color:  #fbff00;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
